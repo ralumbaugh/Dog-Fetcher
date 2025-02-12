@@ -112,7 +112,7 @@ export const searchDogs = async (breedSort: string, breeds?: string[], zipCodes?
     }
 
     if(breedSort) {
-        apiUrl = apiUrl + "?sort=breed:" + breedSort;
+        apiUrl = apiUrl + "&sort=breed:" + breedSort;
     }
 
 
