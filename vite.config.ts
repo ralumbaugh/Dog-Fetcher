@@ -8,5 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: "/Dog-Fetcher"
+  base: "/Dog-Fetcher/"
 })

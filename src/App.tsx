@@ -1,6 +1,6 @@
 'use client'
 import './App.css'
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter as BrowserRouter, Routes, Route } from "react-router-dom";
 import LoginPage from './pages/LoginPage';
 import Dashboard from './pages/Dashboard';
 
