@@ -17,13 +17,16 @@ export const getThemDoggos = (numberOfDogs:number, dogImages:string) => {
         "https://frontend-take-home.fetch.com/dog-images/n02108089-boxer/n02108089_5423.jpg",
         "https://frontend-take-home.fetch.com/dog-images/n02108089-boxer/n02108089_6295.jpg",
         "https://frontend-take-home.fetch.com/dog-images/n02108089-boxer/n02108089_922.jpg",
-        // Scooby - A german Shephard
-        // A Labrador Retriever
-        // A Miniature Pinscher
-        // A Shetland Sheepdog
+        // Photogenic German Shephards
+        "https://frontend-take-home.fetch.com/dog-images/n02106662-German_shepherd/n02106662_104.jpg",
+        "https://frontend-take-home.fetch.com/dog-images/n02106662-German_shepherd/n02106662_10715.jpg",
+        "https://frontend-take-home.fetch.com/dog-images/n02106662-German_shepherd/n02106662_24768.jpg",
+        "https://frontend-take-home.fetch.com/dog-images/n02106662-German_shepherd/n02106662_3260.jpg",
+        "https://frontend-take-home.fetch.com/dog-images/n02106662-German_shepherd/n02106662_13368.jpg",
+        "https://frontend-take-home.fetch.com/dog-images/n02106662-German_shepherd/n02106662_620.jpg",
+        "https://frontend-take-home.fetch.com/dog-images/n02106662-German_shepherd/n02106662_2753.jpg",
     ];
 
-    // const dogImages = localStorage.getItem("Image");
     let likedArray:string[] = [];
 
     if(dogImages) {

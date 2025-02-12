@@ -37,7 +37,7 @@ export default function FavoriteDogsCard({handleDogClick, likedDogs}:FavoritesCa
                         <DogCard currentDog={dog} handleDogClick={handleDogClick} likedDogs={likedDogs} />
                     </div>
                 )) :
-                <div className=" w-full">
+                <div className="w-full">
                     <h1 className="text-xl self-center">Oops! Looks like you haven't favorited any dogs yet!</h1>
                 </div>
             }

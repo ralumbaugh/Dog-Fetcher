@@ -27,7 +27,7 @@ export default function LoginPage() {
             localStorage.setItem("Has logged in", "true");
             navigate("/dashboard");
         } else {
-            console.log("Awwww beans!");
+            console.log("Awwww beans! Login wasn't successful. Status Code: ", result.status);
         }
     }
 

@@ -92,7 +92,6 @@ export default function DogSearchPanel({handleDogClick, likedDogs}:DogSearchPane
     const getDogResults = async (dogIds: string[]) => {
         const result = await dogs(dogIds);
 
-        console.log("GetDogResults: ", dogIds);
         if(result.status == 200) {
             setViewedDogs(result.body)
         }

@@ -1,5 +1,4 @@
 const baseUrl = "https://frontend-take-home-service.fetch.com/";
-// const baseUrl = "https://website.com/";
 
 export const login = async (name:string, email:string) => {
     const apiUrl = baseUrl + "auth/login";
@@ -136,13 +135,13 @@ export const submitRequest = async (myRequest:Request) => {
 
             return {
                 "status": response.status,
-                "body": body,
+                "body": body || null,
                 "next": body.next || null,
                 "prev": body.prev || null,
                 "match": body.match || null,
             };
         } catch { 
-            console.log("Whoops!");
+            console.log("Whoops! Something went wrong. Status: ", response.status);
             return { "status": response.status }
         }
     } catch (error) {
