@@ -44,9 +44,9 @@ export function PickOnePanel({likedDogs}:PickOnePanel) {
         <div className="flex flex-col">
             {(likedDogs.length == 0 && <p>Please favorite some dogs before attempting to match with one.</p>)}
             {chosenDog && 
-            <div className="flex flex-col">
+            <div className="flex flex-col justify-center items-center">
                 <h1>Get ready to take {chosenDog.name} home!</h1>
-                <img className=" max-w-full min-w-fit" src={chosenDog.img} alt={`Your new dog ${chosenDog.name}!`} />
+                <img className="max-w-xl min-w-fit" src={chosenDog.img} alt={`Your new dog ${chosenDog.name}!`} />
             </div>
             }
         </div>
